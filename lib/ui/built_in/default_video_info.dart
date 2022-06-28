@@ -21,17 +21,17 @@ class DefaultVideoInfoWidget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  _userNameAndTimeUploadedWidget(),
+                  // _userNameAndTimeUploadedWidget(),
                   SizedBox(height: 8.0),
 
                   /// rainbow brand
                   ///
-                  _rainBowBrandWidget(),
+                  // _rainBowBrandWidget(),
                   SizedBox(height: 8.0),
 
                   /// song name
                   ///
-                  _songNameWidget(),
+                  // _songNameWidget(),
                   SizedBox(height: 8.0),
                 ],
               ),
@@ -55,15 +55,15 @@ class DefaultVideoInfoWidget extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text(
-            "123.4k",
-            style: TextStyle(
-                fontWeight: FontWeight.w600,
-                fontSize: 12,
-                height: 0.16,
-                fontFamily: "Inter",
-                color: Colors.white),
-          ),
+          // Text(
+          //   "123.4k",
+          //   style: TextStyle(
+          //       fontWeight: FontWeight.w600,
+          //       fontSize: 12,
+          //       height: 0.16,
+          //       fontFamily: "Inter",
+          //       color: Colors.white),
+          // ),
           SizedBox(height: 5),
           FavoriteButton(
             initFavorite: false,
@@ -72,13 +72,13 @@ class DefaultVideoInfoWidget extends StatelessWidget {
             },
           ),
           SizedBox(height: 15),
-          InkWell(
-            onTap: () {},
-            child: Icon(
-              Icons.more_horiz,
-              color: Colors.white,
-            ),
-          ),
+          // InkWell(
+          //   onTap: () {},
+          //   child: Icon(
+          //     Icons.more_horiz,
+          //     color: Colors.white,
+          //   ),
+          // ),
         ],
       ),
     );
